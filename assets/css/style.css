@@ -171,7 +171,7 @@ main .easybank-services {
 
 @media (max-width: 640px) {
   main .easybank-services {
-    padding: 50px 50px;
+    padding: 30px 30px;
   }
 }
 
@@ -219,6 +219,7 @@ main .services-item-container .services-item {
 @media (max-width: 640px) {
   main .services-item-container .services-item {
     max-width: 100%;
+    text-align: center;
   }
 }
 
@@ -424,6 +425,13 @@ footer .social-ul .social-link svg:hover {
   background-color: #fafafa;
 }
 
+@media (max-width: 640px) {
+  .articles .cards_item {
+    padding: 0;
+    margin-bottom: 40px;
+  }
+}
+
 @media (min-width: 40rem) {
   .articles .cards_item {
     width: 50%;
@@ -452,5 +460,11 @@ footer .social-ul .social-link svg:hover {
 
 .articles .article-caption h6 {
   margin: 10px 5px 10px 0px;
+}
+
+@media (max-width: 640px) {
+  .articles {
+    padding: 30px 30px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
