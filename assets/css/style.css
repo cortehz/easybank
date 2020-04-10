@@ -109,6 +109,12 @@ nav ul a:active {
   border-bottom: 1px solid #31d35c;
 }
 
+@media (max-width: 1050px) {
+  nav {
+    padding: 10px 30px 10px 30px;
+  }
+}
+
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -136,6 +142,10 @@ nav ul a:active {
   margin-bottom: 40px;
 }
 
+.hero .copy .btn-cta {
+  margin: 0 auto;
+}
+
 .hero .mobile-screen {
   background-image: url(/assets/images/bg-intro-desktop.svg);
   background-position: 100px -150px;
@@ -152,6 +162,49 @@ nav ul a:active {
   top: -10%;
   right: -10%;
   z-index: 0;
+}
+
+@media (max-width: 1050px) {
+  .hero {
+    min-height: 560px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero .copy {
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center;
+    margin-top: -50px;
+  }
+  .hero .copy h1 {
+    font-size: 2rem;
+  }
+  .hero .copy p {
+    margin-bottom: 40px;
+  }
+  .hero .mobile-screen {
+    background-image: url(/assets/images/bg-intro-mobile.svg);
+    background-position: 0px -50px;
+    background-size: cover;
+  }
+  .hero .mobile-screen img {
+    position: relative;
+    max-width: 100%;
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    top: 0%;
+    margin: 0 auto;
+  }
 }
 
 main section {
@@ -186,6 +239,12 @@ main .services-header h2 {
 main .services-header p {
   margin-top: 30px;
   font-size: 18px;
+}
+
+@media (max-width: 1130px) {
+  main .services-header {
+    width: 50%;
+  }
 }
 
 main .services-item-container {
