@@ -373,6 +373,12 @@ footer {
     margin: 0 auto;
     background-color: $veryLightGray;
 
+    @media (max-width: $breakpoint-tablet) {
+        h1 {
+            text-align: center;
+        }
+    }
+
     .cards {
         display: flex;
         flex-wrap: wrap;

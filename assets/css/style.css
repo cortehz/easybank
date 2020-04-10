@@ -406,6 +406,12 @@ footer .social-ul .social-link svg:hover {
   background-color: #fafafa;
 }
 
+@media (max-width: 640px) {
+  .articles h1 {
+    text-align: center;
+  }
+}
+
 .articles .cards {
   display: -webkit-box;
   display: -ms-flexbox;
