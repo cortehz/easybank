@@ -184,8 +184,8 @@ nav ul a:active {
         -ms-flex-order: 1;
             order: 1;
     text-align: center;
-    margin-top: -55px;
-    padding: 0px 70px 50px 70px;
+    margin: -55px 20px 40px 20px;
+    max-width: 500px;
   }
   .hero .copy h1 {
     font-size: 2rem;
