@@ -184,7 +184,8 @@ nav ul a:active {
         -ms-flex-order: 1;
             order: 1;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -55px;
+    padding: 0px 70px 50px 70px;
   }
   .hero .copy h1 {
     font-size: 2rem;
@@ -204,6 +205,12 @@ nav ul a:active {
             transform: translateY(-100px);
     top: 0%;
     margin: 0 auto;
+  }
+  .services-header h2 {
+    text-align: center;
+  }
+  .services-header p {
+    text-align: center;
   }
 }
 
@@ -238,13 +245,7 @@ main .services-header h2 {
 
 main .services-header p {
   margin-top: 30px;
-  font-size: 18px;
-}
-
-@media (max-width: 1130px) {
-  main .services-header {
-    width: 50%;
-  }
+  font-size: 1rem;
 }
 
 main .services-item-container {

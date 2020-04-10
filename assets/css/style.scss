@@ -149,7 +149,7 @@ nav {
     }
 }
 
-// hero bar mobile style
+// hero and services bar mobile style
 @media (max-width: 1050px) {
     .hero {
         min-height: 560px;
@@ -161,7 +161,8 @@ nav {
             align-self: center;
             order: 1;
             text-align: center;
-            margin-top: -50px;
+            margin-top: -55px;
+            padding: 0px 70px 50px 70px;
 
             h1 {
                 font-size: 2rem;
@@ -189,6 +190,16 @@ nav {
         }
 
     }
+
+    .services-header {
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
 }
 
 
@@ -214,23 +225,13 @@ main {
     }
 
     .services-header {
-
-        // width: 50%;
-
         h2 {
             font-size: 2rem;
         }
 
         p {
             margin-top: 30px;
-            font-size: $bodyCopy;
-        }
-    }
-
-    //make the services CTA occupy only half the page so the mobile screens dont cover it on tabs
-    @media (max-width: 1130px) {
-        .services-header {
-            width: 50%;
+            font-size: 1rem;
         }
     }
 
