@@ -169,10 +169,6 @@ nav {
         p {
             margin-bottom: 40px;
         }
-
-        // .btn-cta {
-        //     margin: 0 auto;
-        // }
     }
 
     .mobile-screen {
@@ -215,6 +211,7 @@ nav {
                 margin-bottom: 40px;
             }
 
+            //centre cta button on smaller devices
             a {
                 margin: 0 auto;
             }
@@ -223,9 +220,7 @@ nav {
         .mobile-screen {
             background-image: url(/assets/images/bg-intro-mobile.svg);
             background-position: 0px -50px;
-            // background-repeat: no-repeat;
             background-size: cover;
-            // min-height: 540px;
 
             img {
                 position: relative;
@@ -486,68 +481,3 @@ footer {
     }
 
 }
-
-
-
-
-
-//navigation
-// a.menu-link {
-//     float: right;
-//     display: block;
-//     padding: 1em;
-// }
-
-// nav[role=navigation] {
-//     clear: both;
-//     -webkit-transition: all 0.3s ease-out;
-//     -moz-transition: all 0.3s ease-out;
-//     -ms-transition: all 0.3s ease-out;
-//     -o-transition: all 0.3s ease-out;
-//     transition: all 0.3s ease-out;
-// }
-
-// .js nav[role=navigation] {
-//     overflow: hidden;
-//     max-height: 0;
-// }
-
-// nav[role=navigation].active {
-//     max-height: 15em;
-// }
-
-// nav[role=navigation] ul {
-//     margin: 0;
-//     padding: 0;
-//     border-top: 1px solid #808080;
-// }
-
-// nav[role=navigation] li a {
-//     display: block;
-//     padding: 0.8em;
-//     border-bottom: 1px solid #808080;
-// }
-
-// @media screen and (min-width: 48.25em) {
-//     a.menu-link {
-//         display: none;
-//     }
-
-//     .js nav[role=navigation] {
-//         max-height: none;
-//     }
-
-//     nav[role=navigation] ul {
-//         margin: 0 0 0 -0.25em;
-//         border: 0;
-//     }
-
-//     nav[role=navigation] li {
-//         display: inline-block;
-//         margin: 0 0.25em;
-//     }
-
-//     nav[role=navigation] li a {
-//         border: 0;
-//     }
-// }
