@@ -239,6 +239,9 @@ nav ul a:active {
   .hero .copy p {
     margin-bottom: 40px;
   }
+  .hero .copy a {
+    margin: 0 auto;
+  }
   .hero .mobile-screen {
     background-image: url(/assets/images/bg-intro-mobile.svg);
     background-position: 0px -50px;
