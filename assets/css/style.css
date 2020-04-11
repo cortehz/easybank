@@ -145,7 +145,7 @@ nav ul a:active {
     border-radius: 5px;
     background: white;
     min-height: 300px;
-    width: 90%;
+    width: 80%;
     top: 15vh;
     -webkit-transform: translateX(120%);
             transform: translateX(120%);
