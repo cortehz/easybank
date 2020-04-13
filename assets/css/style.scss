@@ -137,11 +137,14 @@ nav {
       border-radius: 5px;
       background: $primaryWhite;
       min-height: 300px;
-      height: 100%;
       width: 90%;
       top: 100px;
       transform: translateX(120%);
       transition: transform 0.6s ease-in;
+
+      li {
+        height: auto;
+      }
     }
 
     .nav-active {
