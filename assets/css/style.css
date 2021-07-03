@@ -332,7 +332,6 @@ main .services-item-container {
   margin-top: 80px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
